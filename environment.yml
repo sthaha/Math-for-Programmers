@@ -1,0 +1,52 @@
+---
+name: math
+channels:
+  - conda-forge
+  - conda
+  - defaults
+dependencies:
+  - dill
+  - ipykernel
+  - ipython
+  - ipython_genutils
+  - ipywidgets
+  - jupyter
+  - jupyter_client
+  - jupyter_console
+  - jupyter_core
+  - jupyterthemes
+  - matplotlib
+  - notebook
+  - numpy
+  - pandas
+  - python=3.8*
+  - toolz
+  - nodejs
+  ### finance
+  #- pandas
+  - matplotlib
+  #- numpy
+  - openssl
+  - pandas-datareader
+  - patsy
+  - pip
+  - pyparsing
+  - pyqt
+  #- python
+  - python-dateutil
+  - pytz
+  - qt
+  - requests
+  - setuptools
+  - sip
+  - six
+  - statsmodels
+  - pip:
+      - certifi
+      - chardet
+      - idna
+      - inflection
+      - more-itertools
+      - quandl
+      - urllib3
+prefix: \\Anaconda3\envs\math
